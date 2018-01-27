@@ -1,6 +1,9 @@
-@prefix ab:   <http://learningsparql.com/ns/addressbook#> .
+@prefix ut:   <http://usetypes.plumbing/ns/usetypes#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mt:  <http://usetypes.plumbing/ns/mytypesystem#> . 
+@prefix d:   <http://usetypes.plumbing/ns/data#> .
+@prefix dm:  <http://usetypes.plumbing/ns/demo#> .
 
 ab:Musician
       rdf:type rdfs:Class ;
@@ -10,3 +13,5 @@ ab:Musician
 ab:MusicalInstrument
       a rdfs:Class ;
       rdfs:label "musical instrument" .
+
+d:item1 dm:prop "two"^^mt:potrzebies . 
